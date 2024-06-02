@@ -1,3 +1,4 @@
+package src;
 
 import java.util.Scanner;
 
@@ -14,6 +15,8 @@ public class Main {
 
         // Tạo một đối tượng NextDay
         NextDay nextDay = new NextDay(d, m, y);
+
+        scanner.close();
 
         // In ngày tiếp theo
         System.out.println("Ngày tiếp theo: " + nextDay.getNextDay());
